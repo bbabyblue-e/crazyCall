@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FF1C1C1E</color>
+    <string name="action_accept">接听</string>
+    <string name="action_check_permission">检查锁屏权限</string>
+    <string name="action_decline">挂断</string>
+    <string name="action_hangup">挂断</string>
+    <string name="action_keypad">键盘</string>
+    <string name="action_pick_ringtone">选择铃声</string>
+    <string name="action_save">保存设置</string>
+    <string name="action_speaker">免提</string>
+    <string name="action_trigger_delayed">延迟来电</string>
+    <string name="action_trigger_now">立即来电</string>
+    <string name="action_voice_delete">删除</string>
+    <string name="action_voice_dir">打开语音包目录</string>
+    <string name="action_voice_manage">管理语音包</string>
+    <string name="action_voice_play">试听</string>
+    <string name="action_voice_record">录制我的语音包</string>
+    <string name="app_name">疯狂来电</string>
+    <string name="label_auto_hangup">接听后自动挂断（秒，0 表示不自动）</string>
+    <string name="label_delay">延迟触发（秒）</string>
+    <string name="label_name">来电显示名字</string>
+    <string name="label_phone">来电号码（用于解析归属地与运营商）</string>
+    <string name="label_ring">响铃</string>
+    <string name="label_ringtone">铃声</string>
+    <string name="label_theme">来电皮肤</string>
+    <string name="label_vibrate">震动</string>
+    <string name="label_voice">接通后的说话声（语音包）</string>
+    <string name="permission_hint">锁屏能否弹出，取决于系统权限。点「检查锁屏权限」按提示逐项放行。</string>
+    <string name="record_tip">点「开始录制」，对着手机正常说话 5–15 秒，然后点「停止并保存」。</string>
+    <string name="record_title">录制语音包</string>
+    <string name="status_connected">通话中</string>
+    <string name="status_dialing">正在拨号</string>
+    <string name="title_settings">疯狂来电</string>
+    <string name="voice_hint">录一段 5–15 秒的语音当「对方说话声」，接通后会自动播放。没录之前用系统语音念下面这句话。</string>
+    <style name="Theme.CrazyCall" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF5AA9E6</item>
+    </style>
+    <style name="Theme.CrazyCall.Call" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

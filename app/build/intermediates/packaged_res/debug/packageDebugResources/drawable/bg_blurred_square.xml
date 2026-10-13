@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 中间模糊区：浅灰竖长圆角块（原生中心约 #A1A0A1），四边柔和淡出 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="0"
+                android:centerColor="#E8A8A6A7"
+                android:endColor="#40A8A6A7"
+                android:startColor="#40A8A6A7"
+                android:type="linear" />
+            <corners android:radius="44dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:centerColor="#00A8A6A7"
+                android:endColor="#55A8A6A7"
+                android:startColor="#55A8A6A7"
+                android:type="linear" />
+        </shape>
+    </item>
+</layer-list>

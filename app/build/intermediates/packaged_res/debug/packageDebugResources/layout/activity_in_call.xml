@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_call_backdrop"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:paddingBottom="58dp">
+
+    <!-- 右上角：语音助手（装饰） -->
+    <ImageView
+        android:id="@+id/assistantIcon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="30dp"
+        android:alpha="0.95"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_call_assistant" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="妈妈"
+        android:textColor="#FFEDF3F1"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/numberLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="195 0616 1512"
+        android:textColor="#FFFFFFFF"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/carrierLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="山东青岛 中国移动 HD"
+        android:textColor="#FFD3E0DD"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/statusLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="正在拨号"
+        android:textColor="#FFD3E0DD"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FFD3E0DD"
+        android:textSize="14sp" />
+
+    <!-- 中间不放图形（原生那块是用户壁纸） -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 功能键第一行 -->
+    <LinearLayout
+        android:id="@+id/functionRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingStart="36dp"
+        android:paddingEnd="36dp" />
+
+    <!-- 功能键第二行（留足间距，避免与上一行文字重叠） -->
+    <LinearLayout
+        android:id="@+id/functionRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingStart="36dp"
+        android:paddingEnd="36dp" />
+
+    <!-- 底部：免提 / 挂断 / 键盘 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="27dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingStart="36dp"
+        android:paddingEnd="36dp">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:id="@+id/speakerButton"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_gravity="start"
+                android:background="@drawable/bg_speaker_circle">
+
+                <ImageView
+                    android:id="@+id/speakerIcon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/action_speaker"
+                    android:src="@drawable/ic_speaker_dark" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:id="@+id/hangupButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_hangup_circle">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/action_hangup"
+                    android:src="@drawable/ic_call_hangup" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:id="@+id/keypadButton"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_gravity="end"
+                android:background="@drawable/bg_func_circle">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/action_keypad"
+                    android:src="@drawable/ic_call_keypad" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

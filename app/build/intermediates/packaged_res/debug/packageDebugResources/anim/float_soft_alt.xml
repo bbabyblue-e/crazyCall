@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 与 float_soft 相同但相位错开，避免两个按钮整齐划一 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+    <translate
+        android:duration="1180"
+        android:fromYDelta="-5dp"
+        android:repeatCount="6"
+        android:repeatMode="reverse"
+        android:startOffset="420"
+        android:toYDelta="0" />
+</set>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 一个功能键：圆底 + 完全居中的图标 + 下方文案 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- 用 FrameLayout 包住 ImageView，图标绝对居中（compoundDrawable 会受文字排版影响而偏左） -->
+    <FrameLayout
+        android:id="@+id/functionButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_func_circle">
+
+        <ImageView
+            android:id="@+id/functionIcon"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:contentDescription="@null" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/functionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:includeFontPadding="false"
+        android:text="功能"
+        android:textColor="#FFE4EDEB"
+        android:textSize="12sp" />
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_blurred_square.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_blurred_square.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_function_button.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_function_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_blurred_contact.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_blurred_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_call_assistant.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_call_assistant.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_call_add.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_call_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_call_backdrop.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_call_backdrop.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\layout_dialog_record_voice.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\layout\\dialog_record_voice.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_func_circle.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_func_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_sms_bubble.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_sms_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_call_hangup.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_call_hangup.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_call_video.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_call_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\anim_float_soft_alt.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\anim\\float_soft_alt.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_call_handset.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_call_handset.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_speaker_dark.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_speaker_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_sms_pill.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_sms_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_hangup_circle.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_hangup_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\layout_activity_in_call.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\layout\\activity_in_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_call_mute.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_call_mute.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_call_keypad.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_call_keypad.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_call_speaker.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_call_speaker.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_speaker_circle.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_speaker_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_chevron_up.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_chevron_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_avatar_circle.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_avatar_circle.xml"
+    },
+    {
+        "merged": "com.fengkuanglaidian.app-debug-35:/layout_activity_incoming_call.xml.flat",
+        "source": "com.fengkuanglaidian.app-main-37:/layout/activity_incoming_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_call_record.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_call_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_button_circle.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_button_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_accept_circle.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_accept_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_slide_track.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_slide_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_call_pause.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_call_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_slide_thumb.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_slide_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_call_tile.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_call_tile.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_bg_function_button_light.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\bg_function_button_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\layout_activity_incoming_call.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\layout\\activity_incoming_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\layout_item_call_function.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\layout\\item_call_function.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\anim_float_soft.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\anim\\float_soft.xml"
+    },
+    {
+        "merged": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-debug-35:\\drawable_ic_call_note.xml.flat",
+        "source": "C:\\Users\\联想\\.gradle\\daemon\\8.9\\com.fengkuanglaidian.app-main-37:\\drawable\\ic_call_note.xml"
+    }
+]

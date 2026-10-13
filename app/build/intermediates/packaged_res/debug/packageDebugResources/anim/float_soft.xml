@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 未接来电页底部按钮：轻微上下浮动，错开相位更自然 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+    <translate
+        android:duration="1250"
+        android:fromYDelta="0"
+        android:repeatCount="6"
+        android:repeatMode="reverse"
+        android:startOffset="0"
+        android:toYDelta="-5dp" />
+</set>

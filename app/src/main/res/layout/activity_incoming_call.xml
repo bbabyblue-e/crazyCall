@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_call_backdrop"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:paddingBottom="86dp">
+
+    <!-- 右上角：语音助手（装饰） -->
+    <ImageView
+        android:id="@+id/assistantIcon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="30dp"
+        android:alpha="0.95"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_call_assistant" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="妈妈"
+        android:textColor="#FFEDF3F1"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <!-- 大号号码（原生约 25dp 高） -->
+    <TextView
+        android:id="@+id/numberLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="178 6422 9385"
+        android:textColor="#FFFFFFFF"
+        android:textSize="26sp" />
+
+    <!-- 归属地 + 运营商 -->
+    <TextView
+        android:id="@+id/carrierLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="山东青岛 中国移动"
+        android:textColor="#FFD3E0DD"
+        android:textSize="15sp" />
+
+    <!-- 短信回复（装饰） -->
+    <TextView
+        android:id="@+id/smsReply"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/bg_sms_pill"
+        android:drawableStart="@drawable/ic_sms_bubble"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:paddingStart="13dp"
+        android:paddingEnd="15dp"
+        android:text="短信回复"
+        android:textColor="#FFFFFFFF"
+        android:textSize="14sp" />
+
+    <!-- 中间不放任何图形（原生那块是用户自己的壁纸，不该由 App 绘制） -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 上拉提示箭头（装饰） -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal"
+        android:paddingStart="112dp"
+        android:paddingEnd="112dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="13dp"
+            android:layout_weight="1"
+            android:alpha="0.55"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_chevron_up" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="13dp"
+            android:layout_weight="1"
+            android:alpha="0.55"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_chevron_up" />
+    </LinearLayout>
+
+    <!-- 滑动接听（iOS 皮肤时显示） -->
+    <FrameLayout
+        android:id="@+id/slideTrack"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_slide_track"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/slideHint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="滑动来接听"
+            android:textColor="#FFFFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/slideThumb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/bg_slide_thumb"
+            android:gravity="center"
+            android:text="📞"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <!-- 底部：挂断 / 接听（带轻微浮动） -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/buttonRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:paddingStart="56dp"
+            android:paddingEnd="56dp">
+
+            <FrameLayout
+                android:id="@+id/declineWrapper"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/declineButton"
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="start"
+                    android:background="@drawable/bg_hangup_circle">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/action_decline"
+                        android:src="@drawable/ic_call_hangup" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/acceptWrapper"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/acceptButton"
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="end"
+                    android:background="@drawable/bg_accept_circle">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/action_accept"
+                        android:src="@drawable/ic_call_handset" />
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

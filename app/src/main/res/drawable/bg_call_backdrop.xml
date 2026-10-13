@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 背景：接近原生的一片均匀青绿 #557575，只在上部留极轻的高光 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF547474" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:centerColor="#0C7A9A96"
+                android:endColor="#007A9A96"
+                android:startColor="#1A7A9A96" />
+        </shape>
+    </item>
+</layer-list>

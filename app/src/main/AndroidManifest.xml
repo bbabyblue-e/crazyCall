@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 閿佸睆鍏ㄥ睆鏉ョ數锛欰ndroid 14 璧烽渶鐢ㄦ埛鎵嬪姩鏀捐锛堝簲鐢ㄥ唴浼氬紩瀵硷級 -->
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <!-- 閫氱煡鏉冮檺锛圓ndroid 13+锛?-->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- 闇囧姩 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 褰曞埗鑷繁鐨勮闊冲寘 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 绮剧‘寤舵椂瑙﹀彂 -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <!-- 浜睆涓庝繚鎸佸敜閱?-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- 鏉ョ數鐣岄潰闇€瑕佽兘鐩栧湪閿佸睆涔嬩笂 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 鍓嶅彴鏈嶅姟锛氳寤惰繜鍒扮偣鏃跺彲浠ョ洿鎺ユ媺璧峰叏灞忕晫闈紝鑰屼笉鍙槸涓€涓€氱煡 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CrazyCall">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.CrazyCall">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 鏉ョ數椤碉細閿佸睆鍙 + 鐐逛寒灞忓箷 + 涓嶄粠鏈€杩戜换鍔″嚭鐜?-->
+        <activity
+            android:name=".IncomingCallActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:showOnLockScreen="true"
+            android:showWhenLocked="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.CrazyCall.Call"
+            android:turnScreenOn="true" />
+
+        <!-- 閫氳瘽涓〉 -->
+        <activity
+            android:name=".InCallActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:showOnLockScreen="true"
+            android:showWhenLocked="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.CrazyCall.Call"
+            android:turnScreenOn="true" />
+
+        <!-- 璋冭瘯鐢ㄥ埆鍚嶏細榛樿鍏抽棴锛岄渶瑕佹姄鐣岄潰鏃朵复鏃跺惎鐢?-->
+        <activity-alias
+            android:name=".DebugIncoming"
+            android:exported="true"
+            android:targetActivity=".IncomingCallActivity" />
+
+        <activity-alias
+            android:name=".DebugInCall"
+            android:exported="true"
+            android:targetActivity=".InCallActivity" />
+
+        <!-- 瀹氭椂瑙﹀彂鐨勫亣鏉ョ數 -->
+        <receiver
+            android:name=".CallAlarmReceiver"
+            android:exported="false" />
+
+        <!-- 寤惰繜鏈熼棿椹荤暀鍓嶅彴锛岄伩鍏嶅悗鍙板惎鍔?Activity 琚郴缁熸嫤鎴?-->
+        <service
+            android:name=".CallForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="keep the fake-call trigger alive until the scheduled time" />
+        </service>
+
+        <!-- 涓嬫媺蹇嵎寮€鍏筹細鐐逛竴涓嬬珛鍒绘潵鐢?-->
+        <service
+            android:name=".QuickCallTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_call_tile"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

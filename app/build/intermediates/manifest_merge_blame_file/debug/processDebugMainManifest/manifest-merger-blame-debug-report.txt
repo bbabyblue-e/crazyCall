@@ -1,0 +1,273 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fengkuanglaidian.app"
+4    android:versionCode="9"
+5    android:versionName="0.9.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- 閿佸睆鍏ㄥ睆鏉ョ數锛欰ndroid 14 璧烽渶鐢ㄦ埛鎵嬪姩鏀捐锛堝簲鐢ㄥ唴浼氬紩瀵硷級 -->
+12    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+12-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:5:5-81
+12-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:5:22-78
+13    <!-- 閫氱煡鏉冮檺锛圓ndroid 13+锛? -->
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:7:5-77
+14-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:7:22-74
+15    <!-- 闇囧姩 -->
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:9:5-66
+16-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:9:22-63
+17    <!-- 褰曞埗鑷繁鐨勮闊冲寘 -->
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:11:5-71
+18-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:11:22-68
+19    <!-- 绮剧‘寤舵椂瑙﹀彂 -->
+20    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+20-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:13:5-79
+20-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:13:22-76
+21    <!-- 浜睆涓庝繚鎸佸敜閱? -->
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:15:5-68
+22-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:15:22-65
+23    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+23-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:16:5-75
+23-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:16:22-72
+24    <!-- 鏉ョ數鐣岄潰闇€瑕佽兘鐩栧湪閿佸睆涔嬩笂 -->
+25    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+25-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:18:5-78
+25-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:18:22-75
+26    <!-- 鍓嶅彴鏈嶅姟锛氳寤惰繜鍒扮偣鏃跺彲浠ョ洿鎺ユ媺璧峰叏灞忕晫闈紝鑰屼笉鍙槸涓€涓€氱煡 -->
+27    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+27-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:20:5-77
+27-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:20:22-74
+28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+28-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:21:5-89
+28-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:21:22-86
+29
+30    <permission
+30-->[androidx.core:core:1.13.1] C:\Users\联想\.gradle\caches\8.9\transforms\c7d9af68416eeecf8a4a6ac0b77be855\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+31        android:name="com.fengkuanglaidian.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.13.1] C:\Users\联想\.gradle\caches\8.9\transforms\c7d9af68416eeecf8a4a6ac0b77be855\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.13.1] C:\Users\联想\.gradle\caches\8.9\transforms\c7d9af68416eeecf8a4a6ac0b77be855\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.fengkuanglaidian.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.13.1] C:\Users\联想\.gradle\caches\8.9\transforms\c7d9af68416eeecf8a4a6ac0b77be855\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.13.1] C:\Users\联想\.gradle\caches\8.9\transforms\c7d9af68416eeecf8a4a6ac0b77be855\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:23:5-103:19
+37        android:allowBackup="true"
+37-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:24:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.13.1] C:\Users\联想\.gradle\caches\8.9\transforms\c7d9af68416eeecf8a4a6ac0b77be855\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@mipmap/ic_launcher"
+41-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:25:9-43
+42        android:label="@string/app_name"
+42-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:26:9-41
+43        android:roundIcon="@mipmap/ic_launcher"
+43-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:27:9-48
+44        android:supportsRtl="true"
+44-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:28:9-35
+45        android:theme="@style/Theme.CrazyCall" >
+45-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:29:9-47
+46        <activity
+46-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:31:9-39:20
+47            android:name="com.fengkuanglaidian.app.MainActivity"
+47-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:32:13-41
+48            android:exported="true"
+48-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:33:13-36
+49            android:theme="@style/Theme.CrazyCall" >
+49-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:34:13-51
+50            <intent-filter>
+50-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:35:13-38:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:36:17-69
+51-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:36:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:37:17-77
+53-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:37:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <!-- 鏉ョ數椤碉細閿佸睆鍙 + 鐐逛寒灞忓箷 + 涓嶄粠鏈€杩戜换鍔″嚭鐜? -->
+58        <activity
+58-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:42:9-51:43
+59            android:name="com.fengkuanglaidian.app.IncomingCallActivity"
+59-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:43:13-49
+60            android:excludeFromRecents="true"
+60-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:45:13-46
+61            android:exported="false"
+61-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:44:13-37
+62            android:launchMode="singleInstance"
+62-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:46:13-48
+63            android:showOnLockScreen="true"
+63-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:47:13-44
+64            android:showWhenLocked="true"
+64-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:48:13-42
+65            android:taskAffinity=""
+65-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:49:13-36
+66            android:theme="@style/Theme.CrazyCall.Call"
+66-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:50:13-56
+67            android:turnScreenOn="true" /> <!-- 璋冭瘯鐢ㄥ埆鍚嶏細榛樿鍏抽棴锛岄渶瑕佹姄鐣岄潰鏃朵复鏃跺惎鐢? -->
+67-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:51:13-40
+68        <activity-alias
+68-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:66:9-69:62
+69            android:name="com.fengkuanglaidian.app.DebugIncoming"
+69-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:67:13-42
+70            android:exported="true"
+70-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:68:13-36
+71            android:targetActivity="com.fengkuanglaidian.app.IncomingCallActivity" />
+71-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:69:13-59
+72
+73        <!-- 閫氳瘽涓〉 -->
+74        <activity
+74-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:54:9-63:43
+75            android:name="com.fengkuanglaidian.app.InCallActivity"
+75-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:55:13-43
+76            android:excludeFromRecents="true"
+76-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:57:13-46
+77            android:exported="false"
+77-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:56:13-37
+78            android:launchMode="singleInstance"
+78-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:58:13-48
+79            android:showOnLockScreen="true"
+79-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:59:13-44
+80            android:showWhenLocked="true"
+80-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:60:13-42
+81            android:taskAffinity=""
+81-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:61:13-36
+82            android:theme="@style/Theme.CrazyCall.Call"
+82-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:62:13-56
+83            android:turnScreenOn="true" />
+83-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:63:13-40
+84
+85        <activity-alias
+85-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:71:9-74:56
+86            android:name="com.fengkuanglaidian.app.DebugInCall"
+86-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:72:13-40
+87            android:exported="true"
+87-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:73:13-36
+88            android:targetActivity="com.fengkuanglaidian.app.InCallActivity" />
+88-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:74:13-53
+89
+90        <!-- 瀹氭椂瑙﹀彂鐨勫亣鏉ョ數 -->
+91        <receiver
+91-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:77:9-79:40
+92            android:name="com.fengkuanglaidian.app.CallAlarmReceiver"
+92-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:78:13-46
+93            android:exported="false" />
+93-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:79:13-37
+94
+95        <!-- 寤惰繜鏈熼棿椹荤暀鍓嶅彴锛岄伩鍏嶅悗鍙板惎鍔?Activity 琚郴缁熸嫤鎴? -->
+96        <service
+96-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:82:9-89:19
+97            android:name="com.fengkuanglaidian.app.CallForegroundService"
+97-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:83:13-50
+98            android:exported="false"
+98-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:84:13-37
+99            android:foregroundServiceType="specialUse" >
+99-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:85:13-55
+100            <property
+100-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:86:13-88:93
+101                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+101-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:87:17-76
+102                android:value="keep the fake-call trigger alive until the scheduled time" />
+102-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:88:17-90
+103        </service>
+104
+105        <!-- 涓嬫媺蹇嵎寮€鍏筹細鐐逛竴涓嬬珛鍒绘潵鐢? -->
+106        <service
+106-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:92:9-101:19
+107            android:name="com.fengkuanglaidian.app.QuickCallTileService"
+107-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:93:13-49
+108            android:exported="true"
+108-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:94:13-36
+109            android:icon="@drawable/ic_call_tile"
+109-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:95:13-50
+110            android:label="@string/app_name"
+110-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:96:13-45
+111            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+111-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:97:13-77
+112            <intent-filter>
+112-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:98:13-100:29
+113                <action android:name="android.service.quicksettings.action.QS_TILE" />
+113-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:99:17-87
+113-->D:\AndroidProjects\CrazyCall\app\src\main\AndroidManifest.xml:99:25-84
+114            </intent-filter>
+115        </service>
+116
+117        <provider
+117-->[androidx.emoji2:emoji2:1.3.0] C:\Users\联想\.gradle\caches\8.9\transforms\268b965e38ac6c3d7965eb62437bdecd\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+118            android:name="androidx.startup.InitializationProvider"
+118-->[androidx.emoji2:emoji2:1.3.0] C:\Users\联想\.gradle\caches\8.9\transforms\268b965e38ac6c3d7965eb62437bdecd\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+119            android:authorities="com.fengkuanglaidian.app.androidx-startup"
+119-->[androidx.emoji2:emoji2:1.3.0] C:\Users\联想\.gradle\caches\8.9\transforms\268b965e38ac6c3d7965eb62437bdecd\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+120            android:exported="false" >
+120-->[androidx.emoji2:emoji2:1.3.0] C:\Users\联想\.gradle\caches\8.9\transforms\268b965e38ac6c3d7965eb62437bdecd\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+121            <meta-data
+121-->[androidx.emoji2:emoji2:1.3.0] C:\Users\联想\.gradle\caches\8.9\transforms\268b965e38ac6c3d7965eb62437bdecd\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+122                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+122-->[androidx.emoji2:emoji2:1.3.0] C:\Users\联想\.gradle\caches\8.9\transforms\268b965e38ac6c3d7965eb62437bdecd\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+123                android:value="androidx.startup" />
+123-->[androidx.emoji2:emoji2:1.3.0] C:\Users\联想\.gradle\caches\8.9\transforms\268b965e38ac6c3d7965eb62437bdecd\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+124            <meta-data
+124-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\联想\.gradle\caches\8.9\transforms\36c498859f8ef032ab3bccbc4ca6ea99\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+125                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+125-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\联想\.gradle\caches\8.9\transforms\36c498859f8ef032ab3bccbc4ca6ea99\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+126                android:value="androidx.startup" />
+126-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\联想\.gradle\caches\8.9\transforms\36c498859f8ef032ab3bccbc4ca6ea99\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+127            <meta-data
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+128                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+129                android:value="androidx.startup" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+130        </provider>
+131
+132        <receiver
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+133            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+134            android:directBootAware="false"
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+135            android:enabled="true"
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+136            android:exported="true"
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+137            android:permission="android.permission.DUMP" >
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+138            <intent-filter>
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+139                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+140            </intent-filter>
+141            <intent-filter>
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+142                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+143            </intent-filter>
+144            <intent-filter>
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+145                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+146            </intent-filter>
+147            <intent-filter>
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+148                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\联想\.gradle\caches\8.9\transforms\3cc3ab78dc9af0d267f82d11f11d6bec\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+149            </intent-filter>
+150        </receiver>
+151    </application>
+152
+153</manifest>

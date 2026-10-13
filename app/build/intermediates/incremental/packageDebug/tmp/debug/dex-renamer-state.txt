@@ -1,0 +1,10 @@
+#Mon Oct 12 19:31:09 CST 2026
+base.2=D\:\\AndroidProjects\\CrazyCall\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+path.2=14/classes.dex
+base.1=D\:\\AndroidProjects\\CrazyCall\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+path.1=0/classes.dex
+base.0=D\:\\AndroidProjects\\CrazyCall\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

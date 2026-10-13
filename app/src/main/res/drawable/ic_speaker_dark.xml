@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 免提：深色喇叭（几何居中，避免原路径偏右） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 喇叭主体 -->
+    <path
+        android:fillColor="#FF2B3A38"
+        android:pathData="M3.5,9.2h3.6L11.4,5.4v13.2L7.1,14.8H3.5z" />
+    <!-- 内侧声波 -->
+    <path
+        android:fillColor="#FF2B3A38"
+        android:pathData="M14.4,9.6a3.6,3.6 0 0 1 0,4.8l1.2,1.2a5.3,5.3 0 0 0 0,-7.2z" />
+    <!-- 外侧声波 -->
+    <path
+        android:fillColor="#FF2B3A38"
+        android:pathData="M17.2,6.8a7.4,7.4 0 0 1 0,10.4l1.2,1.2a9.1,9.1 0 0 0 0,-12.8z" />
+</vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 联系人占位（模糊头像）：柔和浅灰绿光晕，边缘消隐 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:centerColor="#4AA6C2BC"
+        android:endColor="#00A6C2BC"
+        android:gradientRadius="50%"
+        android:startColor="#6AAFCAC4"
+        android:type="radial" />
+</shape>

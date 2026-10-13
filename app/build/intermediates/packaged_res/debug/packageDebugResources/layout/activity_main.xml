@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7F8FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/title_settings"
+            android:textColor="#FF111827"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="给自己一个随时能用的脱身理由"
+            android:textColor="#FF6B7280"
+            android:textSize="14sp" />
+
+        <!-- 名字 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:text="@string/label_name"
+            android:textColor="#FF374151"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#FF2E5A57"
+            android:hint="妈妈"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="#FF111827" />
+
+        <!-- 号码 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="@string/label_phone"
+            android:textColor="#FF374151"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inputPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#FF2E5A57"
+            android:hint="19506161512"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:textColor="#FF111827" />
+
+        <!-- 解析结果实时预览 -->
+        <TextView
+            android:id="@+id/labelPhoneInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:textColor="#FF6B7280"
+            android:textSize="13sp" />
+
+        <!-- 皮肤 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="@string/label_theme"
+            android:textColor="#FF374151"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spinnerTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" />
+
+        <!-- 延迟 -->
+        <TextView
+            android:id="@+id/labelDelay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="@string/label_delay"
+            android:textColor="#FF374151"
+            android:textSize="14sp" />
+
+        <SeekBar
+            android:id="@+id/seekDelay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:max="120" />
+
+        <Switch
+            android:id="@+id/switchVibrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/label_vibrate"
+            android:textColor="#FF374151" />
+
+        <Switch
+            android:id="@+id/switchRing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/label_ring"
+            android:textColor="#FF374151" />
+
+        <!-- 铃声 -->
+        <TextView
+            android:id="@+id/labelRingtone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="@string/label_ringtone"
+            android:textColor="#FF374151"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buttonRingtone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/action_pick_ringtone" />
+
+        <!-- 语音 -->
+        <TextView
+            android:id="@+id/labelVoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="@string/label_voice"
+            android:textColor="#FF374151"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inputVoiceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#FF2E5A57"
+            android:hint="喂，我到楼下了，你下来吧"
+            android:inputType="text"
+            android:maxLines="2"
+            android:textColor="#FF111827" />
+
+        <Button
+            android:id="@+id/buttonVoiceDir"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/action_voice_dir" />
+
+        <TextView
+            android:id="@+id/labelVoiceStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/voice_hint"
+            android:textColor="#FF9CA3AF"
+            android:textSize="13sp" />
+
+        <!-- 语音包：录音 / 管理 / 目录 -->
+        <Button
+            android:id="@+id/buttonVoiceRecord"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/action_voice_record" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonVoiceManage"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:text="@string/action_voice_manage" />
+
+            <Button
+                android:id="@+id/buttonVoiceDir"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:text="@string/action_voice_dir" />
+        </LinearLayout>
+
+        <!-- 自动挂断 -->
+        <TextView
+            android:id="@+id/labelAutoHangup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="@string/label_auto_hangup"
+            android:textColor="#FF374151"
+            android:textSize="14sp" />
+
+        <SeekBar
+            android:id="@+id/seekAutoHangup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:max="60" />
+
+        <!-- 动作 -->
+        <Button
+            android:id="@+id/buttonTriggerNow"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/action_trigger_now"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/buttonTriggerDelayed"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/action_trigger_delayed" />
+
+        <Button
+            android:id="@+id/buttonPermission"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/action_check_permission" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/permission_hint"
+            android:textColor="#FF9CA3AF"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+</ScrollView>
